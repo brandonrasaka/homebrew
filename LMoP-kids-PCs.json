@@ -1,0 +1,755 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "PlayerCharacters",
+				"abbreviation": "PC",
+				"full": "Player Characters",
+				"url": "",
+				"authors": [
+					"Brandon Rasaka"
+				],
+				"convertedBy": [],
+				"color": "#a31414"
+			}
+		]
+	},
+	"monster": [
+		{
+			"name": "Vulcan",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": {
+					"choose": []
+				},
+				"tags": [
+					"topaz dragonborn",
+					"far fraveler",
+					"armorer artificer"
+				]
+			},
+			"source": "PlayerCharacters",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item +1 plate armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 6",
+				"average": 26
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 14,
+			"wis": 11,
+			"cha": 10,
+			"passive": 12,
+			"shortName": true,
+			"senses": [
+				"Darkvision",
+				"60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Draconic",
+				"Dwarvish"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"D"
+			],
+			"level": 3,
+			"cr": "1",
+			"int": 16,
+			"save": {
+				"con": "+4",
+				"int": "+5"
+			},
+			"skill": {
+				"arcana": "+5",
+				"insight": "+2",
+				"investigation": "+5",
+				"perception": "+2"
+			},
+			"resist": [
+				"necrotic"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"• Ability: Intelligence",
+						"• Focus: thieves' tools or other {@item artisan's tools|phb} with which you have proficiency",
+						"• Spell save DC = 8 + your proficiency bonus + your Intelligence modifier",
+						"• Spell attack modifier = your proficiency bonus + your Intelligence modifier",
+						"• May replace known cantrips when leveling up.",
+						"• May cast ritual spells."
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell mage hand}",
+								"{@spell prestidigitation}"
+							]
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Armorer Spells",
+					"headerEntries": [
+						"These spells are always prepared and don't count against your limit of prepared spells.",
+						"Level 3 | {@spell magic missile}, {@spell thunderwave}",
+						"Level 5 | {@spell mirror image}, {@spell shatter}",
+						"Level 9 | {@spell hypnotic pattern}, {@spell lightning bolt}",
+						"Level 13 | {@spell fire shield}, {@spell greater invisibility}",
+						"Level 17 | {@spell passwall}, {@spell wall of force}"
+					],
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"trait": [
+				{
+					"name": "Magical Tinkering",
+					"entries": [
+						"(1st-level Artificer feature)"
+					]
+				},
+				{
+					"name": "Infuse Item",
+					"entries": [
+						"(2nd-level Artificer feature)"
+					]
+				},
+				{
+					"name": "Armorer",
+					"entries": [
+						"(Artificer Specialist)"
+					]
+				},
+				{
+					"name": "Tools of the Trade",
+					"entries": [
+						"(3rd-Level Armorer feature)"
+					]
+				},
+				{
+					"name": "Arcane Armor",
+					"entries": [
+						"(3rd-level Armorer feature)"
+					]
+				},
+				{
+					"name": "Armor Models",
+					"entries": [
+						"(3rd-level Armorer feature)"
+					]
+				},
+				{
+					"name": "The Right Tool for the Job",
+					"entries": [
+						"(3rd-level Artificer feature)"
+					]
+				}
+			],
+			"tokenUrl": "https://brandonrasaka.github.io/assets/images/random-image-hosting/vulcan.png",
+			"damageTagsSpell": [
+				"C",
+				"F",
+				"L",
+				"O",
+				"T"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://d.furaffinity.net/art/komical/1517118761/1517118761.komical_kharius.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Evie",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": {
+					"choose": []
+				},
+				"tags": [
+					"tiefling",
+					"urchin",
+					"soul knife rogue"
+				]
+			},
+			"source": "PlayerCharacters",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 3",
+				"average": 23
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 16,
+			"con": 13,
+			"int": 12,
+			"wis": 15,
+			"cha": 18,
+			"passive": 14,
+			"cr": "1",
+			"level": 3,
+			"senses": [
+				"Darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Infernal"
+			],
+			"languageTags": [
+				"C",
+				"I"
+			],
+			"save": {
+				"dex": "+5",
+				"int": "+3"
+			},
+			"skill": {
+				"athletics": "+3",
+				"acrobatics": "+5",
+				"deception": "+6",
+				"sleight of hand": "+7",
+				"perception": "+4",
+				"persuasion": "+6",
+				"stealth": "+7"
+			},
+			"resist": [
+				"fire"
+			],
+			"spellcasting": [
+				{
+					"name": "Legacy of Cania",
+					"headerEntries": [
+						"You know the {@spell Mage Hand} hand cantrip. When you reach 3rd level, you can cast the {@spell Burning Hands} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Flame Blade spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"damageTagsSpell": [
+				"F"
+			],
+			"trait": [
+				{
+					"name": "Sneak Attack",
+					"entries": [
+						"You know how to turn a subtle attack into a deadly one. Once on each of your turns when you take the {@action Attack} Action, you can deal extra damage to one creature you hit with an Attack Roll if you're attacking with a Finesse Weapon or a Ranged Weapon and if at least one of the following requirements is met:",
+						"You have Advantage on the Attack Roll.",
+						"At least one of your allies is within 5 feet of the target, the ally isn't Incapacitated, and you don't have Disadvantage on the Attack Roll.",
+						"To determine the extra damage, roll a number of d6s equal to half your Rogue level (round up), and add the dice together (the Rogue table shows the number of Sneak Attack dice you get at each Rogue level). The extra damage's type is the same as the weapon's Damage Type."
+					]
+				},
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following Actions as a Bonus Action: {@action Dash}, {@action Disengage}, or {@action Hide}."
+					]
+				},
+				{
+					"name": "Psionic Power",
+					"entries": [
+						"You harbor a wellspring of psionic energy within yourself. This energy is represented by your Psionic Energy dice, which are each a {@dice d6}. You have a number of these dice equal to twice your proficiency bonus, and they fuel various psionic powers you have, which are detailed below.",
+						"Some of your powers expend the Psionic Energy die they use, as specified in a power's description, and you can't use a power if it requires you to use a die when your dice are all expended. You regain all your expended Psionic Energy dice when you finish a long rest. In addition, as a bonus action, you can regain one expended Psionic Energy die, but you can't do so again until you finish a short or long rest.",
+						"When you reach certain levels in this class, the size of your Psionic Energy dice increases: at 5th level ({@dice d8}), 11th level ({@dice d10}), and 17th level ({@dice d12})."
+					]
+				},
+				{
+					"name": "Psi-Bolstered Knack",
+					"entries": [
+						"f you fail an ability check using a skill or tool with which you have proficiency, you can roll one Psionic Energy die and add the number rolled to the check, potentially turning failure into success. You expend the die only if the roll succeeds."
+					]
+				},
+				{
+					"name": "Psychic Whispers",
+					"entries": [
+						"As an action, choose one or more creatures you can see, up to a number of creatures equal to your proficiency bonus, and then roll one Psionic Energy die. For a number of hours equal to the number rolled, the chosen creatures can speak telepathically with you, and you can speak telepathically with them. To send or receive a message (no action required), you and the other creature must be within 1 mile of each other. A creature can't use this telepathy if it can't speak any languages, and a creature can end the telepathic connection at any time (no action required). You and the creature don't need to speak a common language to understand each other.",
+						"The first time you use this power after each long rest, you don't expend the Psionic Energy die. All other times you use the power, you expend the die."
+					]
+				},
+				{
+					"name": "Psychic Blades",
+					"entries": [
+						"Whenever you take the Attack action, you can manifest a psychic blade from your free hand and make the attack with that blade. This magic blade is a simple melee weapon with the finesse and thrown properties. It has a normal range of 60 feet and no long range, and on a hit, it deals psychic damage equal to {@dice 1d6} plus the ability modifier you used for the attack roll. The blade vanishes immediately after it hits or misses its target, and it leaves no mark on its target if it deals damage."
+					]
+				},
+				{
+					"name": "Steady Aim",
+					"entries": [
+						"As a bonus action, you can give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn."
+					]
+				}
+			],
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"action": [
+				{
+					"name": "Psychic Blades",
+					"entries": [
+						"{@atk mw,rw} {@hit +5} to hit, reach 5 ft. or range 60 ft., one target. {@h} ({@damage 1d6 + 3}) psychic damage. The blade vanishes immediately after it hits or misses its target, and it leaves no mark on its target if it deals damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"RW",
+				"MW"
+			],
+			"tokenUrl": "https://brandonrasaka.github.io/assets/images/random-image-hosting/evie.png"
+		},
+		{
+			"name": "Jack",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": {
+					"choose": []
+				},
+				"tags": [
+					"mountain dwarf",
+					"spy",
+					"bard"
+				]
+			},
+			"source": "PlayerCharacters",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item hide armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 6",
+				"average": 27
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 17,
+			"dex": 16,
+			"con": 14,
+			"int": 10,
+			"wis": 12,
+			"cha": 17,
+			"passive": 13,
+			"cr": "1",
+			"level": 3,
+			"senses": [
+				"Darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish"
+			],
+			"languageTags": [
+				"C",
+				"D"
+			],
+			"save": {
+				"str": "+5",
+				"cha": "+5"
+			},
+			"skill": {
+				"acrobatics": "+7",
+				"deception": "+5",
+				"perception": "+3",
+				"performance": "+5",
+				"persuasion": "+7",
+				"sleight of hand": "+5",
+				"stealth": "+5"
+			},
+			"resist": [
+				"poison"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"• Ability: Charisma",
+						"• Focus: {@item musical instrument|phb}",
+						"• Spell save DC = 13",
+						"• Spell attack modifier = +5",
+						"• May replace known cantrips when leveling up.",
+						"• May cast ritual spells."
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Songs of Restoration",
+					"headerEntries": [
+						"These spells are always prepared and don't count against your limit of prepared spells.",
+						"Level 2 | {@spell healing word}",
+						"Level 4 | {@spell lesser restoration}",
+						"Level 6 | {@spell mass healing word}",
+						"Level 8 | {@spell freedom of movement}",
+						"Level 10 | {@spell greater restoration}"
+					],
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"trait": [
+				{
+					"name": "Bardic Inspiration",
+					"entries": [
+						"(1st-Level Bard feature)",
+						"(see {@class Bard|xua2022expertclasses})"
+					]
+				},
+				{
+					"name": "Battaglia",
+					"entries": [
+						"(3rd-Level College of Discord feature)"
+					]
+				},
+				{
+					"name": "Mantle of Inspiration",
+					"entries": [
+						"(3rd-Level College of Glamour feature)"
+					]
+				},
+				{
+					"name": "|Proficiencies",
+					"entries": [
+						"Jack is proficient in the following:",
+						"ARMOR",
+						"• Light",
+						"• Medium",
+						"_",
+						"WEAPONS",
+						"• Simple weapons",
+						"• {@item Battleaxe|phb}",
+						"• {@item Handaxe|phb}",
+						"• {@item Light Hammer|phb}",
+						"• {@item Warhammer|phb}",
+						"• {@item Longsword|phb}",
+						"• {@item Rapier|phb}",
+						"_",
+						"TOOLS",
+						"• {@item thieves' tools|phb}",
+						"• {@item smith's tools|phb}",
+						"• {@item lyre|phb}",
+						"• {@item bagpipes|phb}",
+						"• {@item flute|phb}",
+						"• {@item playing card set|phb}"
+					]
+				}
+			],
+			"damageTagsSpell": [
+				"C",
+				"F"
+			]
+		},
+		{
+			"name": "Mia",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": {
+					"choose": []
+				},
+				"tags": [
+					"high elf",
+					"feylost",
+					"ranger"
+				]
+			},
+			"source": "PlayerCharacters",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item scale mail|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d10 + 6",
+				"average": 29
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 13,
+			"con": 14,
+			"int": 11,
+			"wis": 15,
+			"cha": 11,
+			"passive": 14,
+			"cr": "1",
+			"level": 3,
+			"senses": [
+				"Darkvision",
+				"60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Elvish",
+				"Dwarvish",
+				"Sylvan"
+			],
+			"languageTags": [
+				"E",
+				"D",
+				"S"
+			],
+			"save": {
+				"str": "+4",
+				"dex": "+3"
+			},
+			"skill": {
+				"animal handling": "+4",
+				"deception": "+2",
+				"nature": "+2",
+				"perception": "+4",
+				"survival": "+4"
+			},
+			"resist": [
+				"poison"
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"({@background Feylost|wbtw} Background feature)"
+					]
+				},
+				{
+					"name": "Trance",
+					"entries": [
+						"(Elf Racial feature)"
+					]
+				},
+				{
+					"name": "Favored Enemy",
+					"entries": [
+						"(1st-Level Ranger feature)",
+						"(see {@class Ranger|xua2022expertclasses})"
+					]
+				},
+				{
+					"name": "Natural Explorer",
+					"entries": [
+						"(1st-Level Ranger feature)",
+						"(see {@class Ranger (Revised)|UATheRangerRevised})"
+					]
+				},
+				{
+					"name": "Two-Weapon Fighting",
+					"entries": [
+						"(2nd-Level Ranger feature)"
+					]
+				},
+				{
+					"name": "Animal Companion",
+					"entries": [
+						"(3rd-Level Beast Conclave feature)",
+						"(see {@class Ranger (Revised)|UATheRangerRevised})"
+					]
+				},
+				{
+					"name": "|Proficiencies",
+					"entries": [
+						"Mia is proficient in the following:",
+						"ARMOR",
+						"• Light",
+						"• Medium",
+						"• Shields",
+						"_",
+						"WEAPONS",
+						"• Simple weapons",
+						"• Martial weapons",
+						"_",
+						"TOOLS",
+						"• {@item lyre|phb}"
+					]
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"• Ability: Wisdom",
+						"• Spell save DC = 14",
+						"• Spell attack modifier = +4"
+					],
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			]
+		},
+		{
+			"name": "Zyra",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"wolf companion"
+				]
+			},
+			"source": "PlayerCharacters",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor",
+						"Proficiency Bonus"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 2",
+				"average": 15
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 12,
+			"dex": 15,
+			"con": 12,
+			"int": 3,
+			"wis": 14,
+			"cha": 6,
+			"passive": 16,
+			"cr": "1/4",
+			"save": {
+				"str": "+3",
+				"dex": "+4",
+				"con": "+3",
+				"cha": "+0",
+				"wis": "+4",
+				"int": "-2"
+			},
+			"skill": {
+				"stealth": "+4",
+				"perception": "+6"
+			},
+			"trait": [
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"Zyra has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"Zyra has advantage on an attack roll against a creature if at least one of her allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Natural Explorer",
+					"entries": [
+						"When Mia uses the Natural Explorer feature, Zyra can also move stealthily at a normal pace."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses",
+				"Pack Tactics"
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h} {@damage 2d4 +4} piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"tokenUrl": "https://brandonrasaka.github.io/assets/images/random-image-hosting/Zyra.png"
+		}
+	]
+}
